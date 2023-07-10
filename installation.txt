@@ -1,0 +1,5 @@
+1. React Redux
+--> npm i react-redux
+
+2. redux-devtools-extension
+--> npm i redux-devtools-extension
