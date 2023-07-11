@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<DashboardScreen />} />
+        <Route path="/notetaking" element={<DashboardScreen />} />
       </Routes>
     </BrowserRouter>
   );
