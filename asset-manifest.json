@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/notetaking/static/css/main.af3af828.css",
-    "main.js": "/notetaking/static/js/main.be045a1f.js",
+    "main.css": "/notetaking/static/css/main.02863059.css",
+    "main.js": "/notetaking/static/js/main.103a34b2.js",
     "index.html": "/notetaking/index.html",
-    "main.af3af828.css.map": "/notetaking/static/css/main.af3af828.css.map",
-    "main.be045a1f.js.map": "/notetaking/static/js/main.be045a1f.js.map"
+    "main.02863059.css.map": "/notetaking/static/css/main.02863059.css.map",
+    "main.103a34b2.js.map": "/notetaking/static/js/main.103a34b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.af3af828.css",
-    "static/js/main.be045a1f.js"
+    "static/css/main.02863059.css",
+    "static/js/main.103a34b2.js"
   ]
 }
