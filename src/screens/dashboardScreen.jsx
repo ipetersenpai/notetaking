@@ -80,7 +80,8 @@ const DashboardScreen = () => {
         </button>
       </div>
       <button
-        className="btn btn-primary fixed end-4 mt-[74vh] md:end-14 md:mt-[85vh] 2xl:mt-[87vh] h-[75px] w-[75px] rounded-[360px]"
+        // className="btn btn-primary fixed end-4 mt-[74vh] md:end-14 md:mt-[85vh] 2xl:mt-[87vh] h-[75px] w-[75px] rounded-[360px]"
+        className="fixed btn btn-primary bottom-4 right-4 md:bottom-8 md:right-8 lg:bottom-12 lg:right-12 text-white px-4 py-2 h-[75px] w-[75px] rounded-[360px]"
         onClick={() => window.my_modal_1.showModal()}
       >
         <h1 className="text-white text-[42px]">+</h1>
