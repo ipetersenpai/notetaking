@@ -1,8 +1,14 @@
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import DashboardScreen from "./screens/dashboardScreen";
+
 function App() {
   return (
-    <div>
-      <h1>hello lmao</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<DashboardScreen />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
