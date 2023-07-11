@@ -17,17 +17,6 @@ const DashboardScreen = () => {
       [e.target.name]: e.target.value,
     });
   };
-  const [showContent, setShowContent] = useState("no-content");
-
-  useEffect(() => {
-    const tem = JSON.parse(localStorage.getItem("notes"));
-
-    {
-      tem === null
-        ? setShowContent("no-content")
-        : setShowContent("with-content");
-    }
-  }, []);
 
   return (
     <div className="relative flex bg-[#FEFEFE] h-[100vh] flex-col">
@@ -79,13 +68,7 @@ const DashboardScreen = () => {
       </dialog>
       {/* Add new note ends here */}
 
-      {showContent === "no-content" ? (
-        <div className="flex flex-col h-[100vh] bg-slate-500">
-          <h1 className="text-[200px]">hello</h1>
-        </div>
-      ) : (
-        <NoteList />
-      )}
+      <NoteList />
 
       {/* Topbar */}
       <div className="fixed top-0 flex flex-row bg-primary justify-between w-full py-1">
@@ -96,14 +79,12 @@ const DashboardScreen = () => {
           Need Help?
         </button>
       </div>
-
       <button
         className="btn btn-primary fixed end-4 mt-[74vh] md:end-14 md:mt-[85vh] 2xl:mt-[87vh] h-[75px] w-[75px] rounded-[360px]"
         onClick={() => window.my_modal_1.showModal()}
       >
         <h1 className="text-white text-[42px]">+</h1>
       </button>
-
       {/* Topbar ends here */}
     </div>
   );
